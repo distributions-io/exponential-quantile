@@ -2,7 +2,7 @@ options( digits = 16 );
 library( jsonlite );
 
 
-lambda = 1
+lambda = 12
 probs = seq( 0, 1, 0.1 )
 y = qexp( probs, lambda )
 

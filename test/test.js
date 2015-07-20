@@ -202,7 +202,7 @@ describe( 'distributions-exponential-quantile', function tests() {
 			expected,
 			i;
 
-		data = new Float32Array( validationData.data );
+		data = new Float64Array( validationData.data );
 
 		expected = new Float64Array( validationData.expected.map( function( d ) {
 			if (d === 'Inf' ) {
@@ -230,7 +230,7 @@ describe( 'distributions-exponential-quantile', function tests() {
 			'copy': false,
 			'lambda': validationData.lambda
 		});
-		expected = new Float32Array( validationData.expected.map( function( d ) {
+		expected = new Float64Array( validationData.expected.map( function( d ) {
 			if (d === 'Inf' ) {
 				return Number.POSITIVE_INFINITY;
 			}
