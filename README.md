@@ -7,7 +7,7 @@ Quantile Function
 The [quantile function](https://en.wikipedia.org/wiki/Quantile_function) for a [Exponential](https://en.wikipedia.org/wiki/Exponential_distribution) random variable is
 
 <div class="equation" align="center" data-raw-text="Q(p;\lambda) = \frac{-\ln(1-p)}{\lambda}" data-equation="eq:quantile_function">
-	<img src="" alt="Quantile function for a Exponential distribution.">
+	<img src="https://cdn.rawgit.com/distributions-io/exponential-quantile/53391461cec89e45475cc42f31b59931942634e7/docs/img/eqn.svg" alt="Quantile function for a Exponential distribution.">
 	<br>
 </div>
 
