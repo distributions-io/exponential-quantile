@@ -59,7 +59,7 @@ describe( 'matrix quantile', function tests() {
 		}
 	});
 
-	it( 'should evaluate the quantile function of the Exponential distribution for each matrix element', function test() {
+	it( 'should evaluate the quantile function for each matrix element', function test() {
 		var actual, i;
 
 		actual = matrix( [5,5], 'float64' );

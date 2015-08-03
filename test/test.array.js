@@ -30,7 +30,7 @@ describe( 'array quantile', function tests() {
 		expect( quantile ).to.be.a( 'function' );
 	});
 
-	it( 'should evaluate the quantile function of the Exponential distribution', function test() {
+	it( 'should evaluate the quantile function', function test() {
 		var data, actual, expected, i;
 
 		data = validationData.data;

@@ -43,7 +43,7 @@ describe( 'number quantile', function tests() {
 		expect( quantile ).to.be.a( 'function' );
 	});
 
-	it( 'should evaluate the quantile function of the Exponential distribution', function test() {
+	it( 'should evaluate the quantile function', function test() {
 		var actual;
 		for ( var i = 0; i < data.length; i++ ) {
 			actual =  quantile( data[ i ], lambda );

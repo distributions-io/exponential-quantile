@@ -127,7 +127,7 @@ describe( 'distributions-exponential-quantile', function tests() {
 		}
 	});
 
-	it( 'should compute the Exponential quantile when provided a number', function test() {
+	it( 'should evaluate the quantile function when provided a number', function test() {
 		var	validationData = require( './fixtures/number.json' ),
 			data = validationData.data,
 			expected = validationData.expected.map( function( d ) {
@@ -151,7 +151,7 @@ describe( 'distributions-exponential-quantile', function tests() {
 			}
 	});
 
-	it( 'should evaluate the Exponential quantile when provided a plain array', function test() {
+	it( 'should evaluate the quantile function when provided a plain array', function test() {
 
 		var validationData = require( './fixtures/array.json' ),
 			data,
@@ -248,7 +248,7 @@ describe( 'distributions-exponential-quantile', function tests() {
 		}
 	});
 
-	it( 'should evaluate the Exponential quantile function element-wise and return an array of a specific type', function test() {
+	it( 'should evaluate the quantile function element-wise and return an array of a specific type', function test() {
 
 		var validationData = require( './fixtures/array.json' ),
 			// make copy of data array to prevent mutation of validationData
@@ -282,7 +282,7 @@ describe( 'distributions-exponential-quantile', function tests() {
 		}
 	});
 
-	it( 'should evaluate the Exponential quantile function element-wise using an accessor', function test() {
+	it( 'should evaluate the quantile function element-wise using an accessor', function test() {
 		var validationData = require( './fixtures/accessor.json' ),
 			data,
 			actual,
@@ -334,7 +334,7 @@ describe( 'distributions-exponential-quantile', function tests() {
 		}
 	});
 
-	it( 'should evaluate the Exponential quantile function element-wise and deep set', function test() {
+	it( 'should evaluate the quantile function element-wise and deep set', function test() {
 		var validationData = require( './fixtures/deepset.json' ),
 				data,
 				actual,
@@ -390,7 +390,7 @@ describe( 'distributions-exponential-quantile', function tests() {
 		}
 	});
 
-	it( 'should evaluate the Exponential quantile function element-wise when provided a matrix', function test() {
+	it( 'should evaluate the quantile function element-wise when provided a matrix', function test() {
 		var validationData = require( './fixtures/matrix.json' ),
 			mat,
 			out,
@@ -434,7 +434,7 @@ describe( 'distributions-exponential-quantile', function tests() {
 		}
 	});
 
-	it( 'should evaluate the Exponential quantile function element-wise and return a matrix of a specific type', function test() {
+	it( 'should evaluate the quantile function element-wise and return a matrix of a specific type', function test() {
 		var validationData = require( './fixtures/matrix.json' ),
 			mat,
 			out,

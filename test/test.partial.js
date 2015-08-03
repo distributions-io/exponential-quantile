@@ -43,7 +43,7 @@ describe( 'partial quantile', function tests() {
 		expect( partial ).to.be.a( 'function' );
 	});
 
-	it( 'should partially apply the quantile function of the Exponential distribution for given parameter values', function test() {
+	it( 'should partially apply the quantile function of the exponential distribution for given parameter values', function test() {
 		var quantile;
 		quantile = partial( lambda );
 		expect( quantile ).to.be.a( 'function' );

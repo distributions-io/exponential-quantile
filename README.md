@@ -1,6 +1,6 @@
 Quantile Function
 ===
-[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url] [![Dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][codecov-image]][codecov-url] [![Dependencies][dependencies-image]][dependencies-url]
 
 > [Exponential](https://en.wikipedia.org/wiki/Exponential_distribution) distribution [quantile function](https://en.wikipedia.org/wiki/Quantile_function).
 
@@ -78,7 +78,7 @@ The function accepts the following `options`:
 *	__path__: [deepget](https://github.com/kgryte/utils-deep-get)/[deepset](https://github.com/kgryte/utils-deep-set) key path.
 *	__sep__: [deepget](https://github.com/kgryte/utils-deep-get)/[deepset](https://github.com/kgryte/utils-deep-set) key path separator. Default: `'.'`.
 
-A [Exponential](https://en.wikipedia.org/wiki/Exponential_distribution) distribution is a function of 1 parameter(s): `lambda`(rate parameter). By default, `lambda` is equal to `1`. To adjust either parameter, set the corresponding option(s).
+A [Exponential](https://en.wikipedia.org/wiki/Exponential_distribution) distribution is a function of one parameter: `lambda`(rate parameter). By default, `lambda` is equal to `1`. To adjust the parameter, set the corresponding option.
 
 ``` javascript
 var x = [ 0, 0.2, 0.4, 0.6, 0.8, 1 ];
@@ -388,8 +388,8 @@ Copyright &copy; 2015. The [Compute.io](https://github.com/compute-io) Authors.
 [travis-image]: http://img.shields.io/travis/distributions-io/exponential-quantile/master.svg
 [travis-url]: https://travis-ci.org/distributions-io/exponential-quantile
 
-[coveralls-image]: https://img.shields.io/coveralls/distributions-io/exponential-quantile/master.svg
-[coveralls-url]: https://coveralls.io/r/distributions-io/exponential-quantile?branch=master
+[codecov-image]: https://img.shields.io/codecov/c/github/distributions-io/exponential-quantile/master.svg
+[codecov-url]: https://codecov.io/github/distributions-io/exponential-quantile?branch=master
 
 [dependencies-image]: http://img.shields.io/david/distributions-io/exponential-quantile.svg
 [dependencies-url]: https://david-dm.org/distributions-io/exponential-quantile

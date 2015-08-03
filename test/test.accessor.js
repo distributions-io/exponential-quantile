@@ -30,7 +30,7 @@ describe( 'accessor quantile', function tests() {
 		expect( quantile ).to.be.a( 'function' );
 	});
 
-	it( 'should evaluate the quantile function of the Exponential distribution using an accessor', function test() {
+	it( 'should evaluate the quantile function using an accessor', function test() {
 		var data, actual, expected, i;
 
 		data = validationData.data.map( function( e ) {
