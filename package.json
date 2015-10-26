@@ -1,6 +1,6 @@
 {
   "name": "distributions-exponential-quantile",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Exponential distribution quantile function.",
   "author": {
     "name": "Philipp Burckhardt",
@@ -61,7 +61,7 @@
     "istanbul": "^0.3.0",
     "jshint": "2.x.x",
     "jshint-stylish": "2.x.x",
-	"validate.io-finite": "^1.0.0"
+    "validate.io-finite": "^1.0.0"
   },
   "license": "MIT"
 }
