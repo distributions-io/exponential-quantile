@@ -20,7 +20,7 @@
   "main": "./lib",
   "repository": {
     "type": "git",
-    "url": "git://github.com/compute-io/exponential-quantile.git"
+    "url": "git://github.com/distributions-io/exponential-quantile.git"
   },
   "keywords": [
     "distributions.io",
@@ -35,7 +35,7 @@
     "continuous"
   ],
   "bugs": {
-    "url": "https://github.com/compute-io/exponential-quantile/issues"
+    "url": "https://github.com/distributions-io/exponential-quantile/issues"
   },
   "dependencies": {
     "compute-array-constructors": "^1.0.0",
