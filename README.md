@@ -4,14 +4,14 @@ Quantile Function
 
 > [Exponential](https://en.wikipedia.org/wiki/Exponential_distribution) distribution [quantile function](https://en.wikipedia.org/wiki/Quantile_function).
 
-The [quantile function](https://en.wikipedia.org/wiki/Quantile_function) for a [Exponential](https://en.wikipedia.org/wiki/Exponential_distribution) random variable is
+The [quantile function](https://en.wikipedia.org/wiki/Quantile_function) for an [exponential](https://en.wikipedia.org/wiki/Exponential_distribution) random variable is
 
 <div class="equation" align="center" data-raw-text="Q(p;\lambda) = \frac{-\ln(1-p)}{\lambda}" data-equation="eq:quantile_function">
-	<img src="https://cdn.rawgit.com/distributions-io/exponential-quantile/53391461cec89e45475cc42f31b59931942634e7/docs/img/eqn.svg" alt="Quantile function for a Exponential distribution.">
+	<img src="https://cdn.rawgit.com/distributions-io/exponential-quantile/53391461cec89e45475cc42f31b59931942634e7/docs/img/eqn.svg" alt="Quantile function for an exponential distribution.">
 	<br>
 </div>
 
-for `0 <= p < 1`, where `lambda` is the rate parameter.
+for `0 <= p < 1`, where `lambda > 0` is the rate parameter.
 
 ## Installation
 
@@ -30,7 +30,7 @@ var quantile = require( 'distributions-exponential-quantile' );
 
 #### quantile( p[, options] )
 
-Evaluates the [quantile function](https://en.wikipedia.org/wiki/Quantile_function) for the [Exponential](https://en.wikipedia.org/wiki/Exponential_distribution) distribution. `p` may be either a [`number`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) between `0` and `1`, an [`array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array), a [`typed array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays), or a [`matrix`](https://github.com/dstructs/matrix).
+Evaluates the [quantile function](https://en.wikipedia.org/wiki/Quantile_function) for the [exponential](https://en.wikipedia.org/wiki/Exponential_distribution) distribution. `p` may be either a [`number`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) between `0` and `1`, an [`array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array), a [`typed array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays), or a [`matrix`](https://github.com/dstructs/matrix).
 
 ``` javascript
 var matrix = require( 'dstructs-matrix' ),
@@ -78,7 +78,7 @@ The function accepts the following `options`:
 *	__path__: [deepget](https://github.com/kgryte/utils-deep-get)/[deepset](https://github.com/kgryte/utils-deep-set) key path.
 *	__sep__: [deepget](https://github.com/kgryte/utils-deep-get)/[deepset](https://github.com/kgryte/utils-deep-set) key path separator. Default: `'.'`.
 
-A [Exponential](https://en.wikipedia.org/wiki/Exponential_distribution) distribution is a function of one parameter: `lambda`(rate parameter). By default, `lambda` is equal to `1`. To adjust the parameter, set the corresponding option.
+An [exponential](https://en.wikipedia.org/wiki/Exponential_distribution) distribution is a function of one parameter: `lambda > 0`(rate parameter). By default, `lambda` is equal to `1`. To adjust the parameter, set the corresponding option.
 
 ``` javascript
 var x = [ 0, 0.2, 0.4, 0.6, 0.8, 1 ];

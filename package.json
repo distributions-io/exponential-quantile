@@ -1,7 +1,7 @@
 {
   "name": "distributions-exponential-quantile",
   "version": "0.0.0",
-  "description": "Exponential  distribution quantile function.",
+  "description": "Exponential distribution quantile function.",
   "author": {
     "name": "Philipp Burckhardt",
     "email": "pburckhardt@outlook.com"
@@ -29,7 +29,10 @@
     "statistics",
     "stats",
     "cdf",
-    "inverse"
+    "inverse",
+    "memoryless",
+    "life-time",
+    "continuous"
   ],
   "bugs": {
     "url": "https://github.com/compute-io/exponential-quantile/issues"
